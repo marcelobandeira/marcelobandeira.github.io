@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="bootstrap-layout">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Marcelo Bandeira</title>
+
+    <!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+    <meta name="robots" content="noindex">
+
+
+    <!-- App CSS -->
+    <link type="text/css" href="assets/foundation/css/foundation.css" rel="stylesheet">
+    <link type="text/css" href="assets/style.css" rel="stylesheet">
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.js"></script>
+  </head>
+
+  <body>
+    <!-- <div class="nav-fixed"> -->
+      <!-- <nav class="fixed"> -->
+        <!-- <ul class="menu align-right">
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#professional">PROFESSIONAL</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul> -->
+      <!-- </nav> -->
+    <!-- </div> -->
+    <div class="nav-fixed">
+      <div class = "title-bar" data-responsive-toggle = "example-menu" data-hide-for = "medium">
+         <button class = "menu-icon" type = "button" data-toggle></button>
+         <div class = "title-bar-title">Menu</div>
+      </div>
+      
+      <div id = "example-menu">
+         <ul class = "menu">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#professional">PROFESSIONAL</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+         </ul>
+      </div>
+    </div>
+    <div class="row about" id ="about" style="margin-top: 50px">
+      <!-- <div class="row"> -->
+        <div class="small-12 large-12 columns text-about">
+          <img class="img-about" src="assets/marcelo.jpg"></img>
+          <h3>Marcelo Bandeira da Silva</h3>
+          <p>From a small city named Jatoba do Piaui (The Watermelon Land), Moved to Teresina, the capital state, for college. I like Formula 1, read books, learn new things. </p>
+          <p>Web Developer, Student</p>
+
+        </div>
+      <!-- </div> -->
+    </div>
+    <div class="row education" id="education">
+      <h3 class="text-center section-title"><b>EDUCATION</b></h3>
+      <h5>Federal Institute of Piaui</h5>
+      <p class="section-item">System's Analysis and Development.</p>
+      <p class="section-item">Lab Monitor.</p>
+      <p class="section-item">Research in Computer Vision.</p>
+      <h5>Southern Illinois University Carbondale</h5>
+      <p class="section-item">Information Systems.</p>
+      <p class="section-item">Brazil's Science without Borders Exchange Program.</p>
+      <p class="section-item">Research in Software Engineering using MIT App Inventor.</p>
+      <p class="section-item">Member of the first SIU Web Development Team which participated of the AITP (Association of Information Technology Professionals) Web Development Competition.</p>
+    </div>
+    <div class="row professional" id="professional">
+      <h3 class="text-center section-title"><b>PROFESSIONAL</b></h3>
+      <h5>Clipdata Informatica</h5>
+      <p class="section-item">Web Development Internship.</p>
+      <p class="section-item">Development and maintenance of websites using PHP, HTML, CSS, Javascript and MySQL.</p>
+      <p class="section-item">Development of Mobile Applications using Ionic 2</p>
+      <h5>Bank of Brazil</h5>
+      <p class="section-item">Web Development Internship.</p>
+      <p class="section-item">Development and maintenance of the bank's state intranet website, using PHP, HTML, CSS, Javascript, and MySQL.</p>
+    </div>
+    <div class="row portfolio" id="portfolio">
+      <h3 class="text-center section-title"><b>PORTFOLIO</b></h3>
+      <div class="large-4 large-offset-2 columns text-center">
+        <a href="https://www.bestmed.com.br" target="_blank">
+          <img src="assets/bestmed.jpg" style="width: 100%">
+          <p class="text-center">BESTMED Cursos Online</p>  
+        </a>
+      </div>
+      <div class="large-4 columns end text-center">
+        <a href="https://codepen.io/marcelobandeira/full/BKGmdr/" target="_blank">
+          <img src="assets/quote.jpg" style="width: 100%">
+          <p class="text-center">Random Quote</p>  
+        </a>
+      </div>
+    </div>
+    <div class="row contact text-center" id="contact">
+      <h3 class="text-center section-title "><b>CONTACT</b></h3>
+      <div class="small-12 columns">
+        marcelo.bandeira.100@gmail.com
+        <br>
+        <a href="https://fb.com/MarceloBandeiradaSilva" target="_blank">fb.com/MarceloBandeiradaSilva</a>
+      </div>
+    </div>
+  </body>
+  <script>
+     $(document).ready(function() {
+        $(document).foundation();
+     })
+  </script>
+</html>
